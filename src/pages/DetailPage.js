@@ -7,11 +7,10 @@ import {
   Typography,
   Alert,
   Button,
-  Modal,
 } from "@mui/material";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { Link, useLinkClickHandler, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { PokeType } from "../components/PokeType";
 import { getPokemonById } from "../features/pokemons/pokemonSlice";
 import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
